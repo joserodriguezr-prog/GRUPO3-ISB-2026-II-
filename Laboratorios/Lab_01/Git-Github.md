@@ -23,7 +23,7 @@
     - Añadir "remote" de GitHub 
     - Conectarse con GitHub y añadir repositorio
 
-# Codigos
+# Codigos vistos
 
 | Código / Sintaxis | Qué hace / Información | Resultado en Vista Previa |
 | :--- | :--- | :--- |
