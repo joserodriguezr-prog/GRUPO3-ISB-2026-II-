@@ -14,3 +14,4 @@ Se selecciona el primer canal, como se puede observar es el MLII
 
 ![Registro seleccionado] (imageneslab1/img1.png) 
 
+#
