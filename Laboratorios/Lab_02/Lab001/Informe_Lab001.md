@@ -65,3 +65,6 @@ Se consiguió representar la señal ECG mediante una represetnación continua y 
 
 La señal ECG fue convertida a archivo WAV
 
+# Aclaración
+
+Las preguntas a analizar están en el mismo archivo
