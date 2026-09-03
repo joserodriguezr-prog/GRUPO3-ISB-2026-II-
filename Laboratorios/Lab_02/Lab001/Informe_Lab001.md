@@ -12,5 +12,5 @@ Como se muestra en el código, la frecuencia de muestreo es 360
 # 4. Canal seleccionado
 Se selecciona el primer canal, como se puede observar es el MLII
 
-(imageneslab1/img1.png)
+![Texto alternativo] (ruta/de/la/imagen.png) 
 
