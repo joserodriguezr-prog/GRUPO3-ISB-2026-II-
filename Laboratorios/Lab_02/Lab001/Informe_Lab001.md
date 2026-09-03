@@ -12,7 +12,7 @@ Como se muestra en el código, la frecuencia de muestreo es 360
 # 4. Canal seleccionado
 Se selecciona el primer canal, como se puede observar es el MLII
 
-![Registro seleccionado] (./imagenes_Lab001/img1.png) 
+![Registro seleccionado](./imagenes_Lab001/img1.png) 
 
 
 #
