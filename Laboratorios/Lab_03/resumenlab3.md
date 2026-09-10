@@ -67,8 +67,11 @@ La intención fue comparar visualmente la señal obtenida en reposo con las señ
 Durante el registro en reposo se buscó mantener el músculo relajado para observar el nivel de actividad eléctrica basal.
 
 ![Descripción](imagenes/imagen4.png)
+
 [🎥 Ver video de demostración](videos/video1.mp4)
+
 ![Descripción](imagenes/imagen5.png)
+
 [🎥 Ver video de demostración](videos/video2.mp4)
 
 En el video se debe poder observar:
