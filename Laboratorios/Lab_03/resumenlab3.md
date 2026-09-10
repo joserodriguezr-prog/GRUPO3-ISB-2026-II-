@@ -83,7 +83,7 @@ En el video se debe poder observar:
 ### Señal en reposo
 
 >[!NOTE]
-> *[Insertar aquí captura de OpenSignals de la señal en reposo-OS1]*
+> *[captura de OpenSignals de la señal en reposo-OS1]*
 
 *Figura 4. Señal electromiográfica registrada durante el reposo.*
 
@@ -133,14 +133,14 @@ Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenS
 ### Abductor
 
 >[!NOTE]
-> *[Insertar aquí captura de OpenSignals]*
+> *[captura de OpenSignals]*
 
 *Figura 9. Señal registrada del abductor mediante OpenSignals.*
 
 ### Trapecio
 
 >[!NOTE]
-> *[Insertar aquí captura de OpenSignals]*
+> *[captura de OpenSignals]*
 
 *Figura 10. Señal registrada del trapecio mediante OpenSignals.*
 
@@ -149,9 +149,5 @@ A partir de las gráficas se pueden identificar los diferentes momentos correspo
 ## 9. Datos obtenidos
 Los registros obtenidos durante la práctica fueron guardados como archivos de datos para posteriormente poder analizarlos mediante Python.
 
-Los archivos utilizados para el análisis son:
-- `nombre_archivo_abductor.csv`
-- `nombre_archivo_trapecio.csv`
+Los archivos utilizados para el análisis son:`
 
->[!NOTE]
-> *[Colocar aquí los archivos o enlaces correspondientes]*
