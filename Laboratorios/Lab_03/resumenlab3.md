@@ -33,8 +33,7 @@ La conexión se realizó entre los electrodos colocados sobre el cuerpo y el dis
 
 ### 3.2. Conexión para el trapecio
 
->[!NOTE]
-> *[Insertar aquí la fotografía de la colocación de los electrodos en el trapecio-IMAGEN 2]*
+![Descripción](imagenes/imagen2.png)
 
 *Figura 2. Colocación de los electrodos para el registro de la actividad muscular del trapecio.*
 
