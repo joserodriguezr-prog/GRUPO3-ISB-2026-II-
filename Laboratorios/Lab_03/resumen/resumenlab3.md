@@ -27,7 +27,7 @@ La conexión se realizó entre los electrodos colocados sobre el cuerpo y el dis
 
 ### 3.1. Conexión para el abductor
 
-![Descripción](imagenes/imagen1.jpg)
+![Descripción](imagenes/imagen1.png)
 
 *Figura 1. Colocación de los electrodos para el registro de la actividad muscular del abductor.*
 
