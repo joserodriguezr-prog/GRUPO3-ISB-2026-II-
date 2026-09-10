@@ -82,8 +82,9 @@ En el video se debe poder observar:
 
 ### Señal en reposo
 
->[!NOTE]
-> *[captura de OpenSignals de la señal en reposo-OS1]*
+![Descripción](imagenes/reposo.png)
+
+![Descripción](imagenes/reposotrapecio.png)
 
 *Figura 4. Señal electromiográfica registrada durante el reposo.*
 
@@ -130,17 +131,20 @@ En esta condición se esperaba obtener una señal con mayor amplitud respecto al
 ## 8. Ploteo de la señal en OpenSignals
 Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenSignals. Este software permitió observar la señal registrada por el BITalino en función del tiempo.
 
-### Abductor
+### Antebrazo
 
->[!NOTE]
-> *[captura de OpenSignals]*
+![Descripción](imagenes/leveantebrazo.png)
 
-*Figura 9. Señal registrada del abductor mediante OpenSignals.*
+![Descripción](imagenes/fuerteantebrazo.png)
+
+*Figura 9. Señal registrada del antebrazo mediante OpenSignals.*
 
 ### Trapecio
 
->[!NOTE]
-> *[captura de OpenSignals]*
+
+![Descripción](imagenes/levetrapecio.png)
+
+![Descripción](imagenes/fuertetrapecio.png)
 
 *Figura 10. Señal registrada del trapecio mediante OpenSignals.*
 
@@ -149,5 +153,9 @@ A partir de las gráficas se pueden identificar los diferentes momentos correspo
 ## 9. Datos obtenidos
 Los registros obtenidos durante la práctica fueron guardados como archivos de datos para posteriormente poder analizarlos mediante Python.
 
-Los archivos utilizados para el análisis son:`
+Los archivos utilizados para el análisis son:
+- `nombre_archivo_abductor.csv`
+- `nombre_archivo_trapecio.csv`
 
+>[!NOTE]
+> *[Colocar aquí los archivos o enlaces correspondientes]*
