@@ -39,8 +39,7 @@ La conexión se realizó entre los electrodos colocados sobre el cuerpo y el dis
 
 ### 3.3. Conexión BITalino-cables
 
->[!NOTE]
-> *[Insertar aquí la fotografía donde se observe la conexión entre los electrodos, cables y BITalino-IMAGEN3]*
+![Descripción](imagenes/imagen3.png)
 
 *Figura 3. Conexión del BITalino utilizada durante la práctica.*
 
@@ -67,11 +66,10 @@ La intención fue comparar visualmente la señal obtenida en reposo con las señ
 ## 5. Registro de la señal en reposo
 Durante el registro en reposo se buscó mantener el músculo relajado para observar el nivel de actividad eléctrica basal.
 
->[!NOTE]
-> * [Imagen 4]
-> * [Video 1]
-> * [Imagen 5]
-> * [Video 2]
+![Descripción](imagenes/imagen4.png)
+<video src="videos/video1.mp4" controls width="600"></video>
+![Descripción](imagenes/imagen5.png)
+<video src="videos/video2.mp4" controls width="600"></video>
 
 En el video se debe poder observar:
 - La conexión de los electrodos con el cuerpo.
@@ -95,15 +93,13 @@ El objetivo de esta etapa fue observar cómo la actividad eléctrica del múscul
 
 ### Abductor
 
->[!NOTE]
-> *[Insertar captura o gráfico correspondiente al abductor-IMAGEN 6 y OPEN SIGNAL MOV LEVE ABD]*
+![Descripción](imagenes/imagen6.png)
 
 *Figura 5. Registro de la actividad muscular del abductor durante movimiento leve.*
 
 ### Trapecio
 
->[!NOTE]
-> *[Insertar captura o gráfico correspondiente al trapecio-IMAGEN 7 Y OPEN SIGNAL MOV LEVE TRAPE]*
+![Descripción](imagenes/imagen7.png)
 
 *Figura 6. Registro de la actividad muscular del trapecio durante movimiento leve.*
 
@@ -116,15 +112,13 @@ Esta medición permitió comparar la actividad muscular obtenida con la condici�
 
 ### Abductor
 
->[!NOTE]
-> *[Insertar gráfico/captura] [imagen 8] [captura del plot de open signal mov fuerte]*
+![Descripción](imagenes/imagen8.png)
 
 *Figura 7. Actividad electromiográfica del abductor durante una contracción de mayor intensidad.*
 
 ### Trapecio
 
->[!NOTE]
-> *[Insertar gráfico/captura] [imagen 9] [captura de open signal mov fuerte trap]*
+![Descripción](imagenes/imagen9.png)
 
 *Figura 8. Actividad electromiográfica del trapecio durante una contracción de mayor intensidad.*
 
