@@ -151,11 +151,6 @@ Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenS
 A partir de las gráficas se pueden identificar los diferentes momentos correspondientes al reposo, movimiento leve y movimiento con mayor fuerza.
 
 ## 9. Datos obtenidos
-Los registros obtenidos durante la práctica fueron guardados como archivos de datos para posteriormente poder analizarlos mediante Python.
+Los registros obtenidos durante la práctica fueron guardados como archivos de texto para posteriormente poder analizarlos mediante Python en Google Collab.
 
-Los archivos utilizados para el análisis son:
-- `nombre_archivo_abductor.csv`
-- `nombre_archivo_trapecio.csv`
-
->[!NOTE]
-> *[Colocar aquí los archivos o enlaces correspondientes]*
+Link: https://colab.research.google.com/drive/1smygPpkWjF3PbLe7dF24r_6Wra0JwTZy?usp=sharing
