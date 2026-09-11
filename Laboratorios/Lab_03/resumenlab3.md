@@ -154,3 +154,4 @@ A partir de las gráficas se pueden identificar los diferentes momentos correspo
 Los registros obtenidos durante la práctica fueron guardados como archivos de texto para posteriormente poder analizarlos mediante Python en Google Collab.
 
 Link: https://colab.research.google.com/drive/1smygPpkWjF3PbLe7dF24r_6Wra0JwTZy?usp=sharing
+
