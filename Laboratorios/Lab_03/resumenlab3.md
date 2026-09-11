@@ -33,13 +33,15 @@ La conexión se realizó entre los electrodos colocados sobre el cuerpo y el dis
 
 ### 3.2. Conexión para el trapecio
 
-![Descripción](imagenes/imagen2.png)
+>[!NOTE]
+> *[Insertar aquí la fotografía de la colocación de los electrodos en el trapecio-IMAGEN 2]*
 
 *Figura 2. Colocación de los electrodos para el registro de la actividad muscular del trapecio.*
 
 ### 3.3. Conexión BITalino-cables
 
-![Descripción](imagenes/imagen3.png)
+>[!NOTE]
+> *[Insertar aquí la fotografía donde se observe la conexión entre los electrodos, cables y BITalino-IMAGEN3]*
 
 *Figura 3. Conexión del BITalino utilizada durante la práctica.*
 
@@ -66,13 +68,11 @@ La intención fue comparar visualmente la señal obtenida en reposo con las señ
 ## 5. Registro de la señal en reposo
 Durante el registro en reposo se buscó mantener el músculo relajado para observar el nivel de actividad eléctrica basal.
 
-![Descripción](imagenes/imagen4.png)
-
-[🎥 Ver video de demostración](videos/video1.mp4)
-
-![Descripción](imagenes/imagen5.png)
-
-[🎥 Ver video de demostración](videos/video2.mp4)
+>[!NOTE]
+> * [Imagen 4]
+> * [Video 1]
+> * [Imagen 5]
+> * [Video 2]
 
 En el video se debe poder observar:
 - La conexión de los electrodos con el cuerpo.
@@ -82,9 +82,8 @@ En el video se debe poder observar:
 
 ### Señal en reposo
 
-![Descripción](imagenes/reposo.png)
-
-![Descripción](imagenes/reposotrapecio.png)
+>[!NOTE]
+> *[Insertar aquí captura de OpenSignals de la señal en reposo-OS1]*
 
 *Figura 4. Señal electromiográfica registrada durante el reposo.*
 
@@ -97,13 +96,15 @@ El objetivo de esta etapa fue observar cómo la actividad eléctrica del múscul
 
 ### Abductor
 
-![Descripción](imagenes/imagen6.png)
+>[!NOTE]
+> *[Insertar captura o gráfico correspondiente al abductor-IMAGEN 6 y OPEN SIGNAL MOV LEVE ABD]*
 
 *Figura 5. Registro de la actividad muscular del abductor durante movimiento leve.*
 
 ### Trapecio
 
-![Descripción](imagenes/imagen7.png)
+>[!NOTE]
+> *[Insertar captura o gráfico correspondiente al trapecio-IMAGEN 7 Y OPEN SIGNAL MOV LEVE TRAPE]*
 
 *Figura 6. Registro de la actividad muscular del trapecio durante movimiento leve.*
 
@@ -116,13 +117,15 @@ Esta medición permitió comparar la actividad muscular obtenida con la condici�
 
 ### Abductor
 
-![Descripción](imagenes/imagen8.png)
+>[!NOTE]
+> *[Insertar gráfico/captura] [imagen 8] [captura del plot de open signal mov fuerte]*
 
 *Figura 7. Actividad electromiográfica del abductor durante una contracción de mayor intensidad.*
 
 ### Trapecio
 
-![Descripción](imagenes/imagen9.png)
+>[!NOTE]
+> *[Insertar gráfico/captura] [imagen 9] [captura de open signal mov fuerte trap]*
 
 *Figura 8. Actividad electromiográfica del trapecio durante una contracción de mayor intensidad.*
 
@@ -131,31 +134,23 @@ En esta condición se esperaba obtener una señal con mayor amplitud respecto al
 ## 8. Ploteo de la señal en OpenSignals
 Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenSignals. Este software permitió observar la señal registrada por el BITalino en función del tiempo.
 
-### Antebrazo
+### Abductor
 
-![Descripción](imagenes/leveantebrazo.png)
+>[!NOTE]
+> *[Insertar aquí captura de OpenSignals]*
 
-![Descripción](imagenes/fuerteantebrazo.png)
-
-*Figura 9. Señal registrada del antebrazo mediante OpenSignals.*
+*Figura 9. Señal registrada del abductor mediante OpenSignals.*
 
 ### Trapecio
 
-
-![Descripción](imagenes/levetrapecio.png)
-
-![Descripción](imagenes/fuertetrapecio.png)
+>[!NOTE]
+> *[Insertar aquí captura de OpenSignals]*
 
 *Figura 10. Señal registrada del trapecio mediante OpenSignals.*
 
 A partir de las gráficas se pueden identificar los diferentes momentos correspondientes al reposo, movimiento leve y movimiento con mayor fuerza.
 
 ## 9. Datos obtenidos
-Los registros obtenidos durante la práctica fueron guardados como archivos de datos para posteriormente poder analizarlos mediante Python.
+Los registros obtenidos durante la práctica fueron guardados como archivos de texto para posteriormente poder analizarlos mediante Python en Google Collab.
 
-Los archivos utilizados para el análisis son:
-- `nombre_archivo_abductor.csv`
-- `nombre_archivo_trapecio.csv`
-
->[!NOTE]
-> *[Colocar aquí los archivos o enlaces correspondientes]*
+Link: https://colab.research.google.com/drive/1smygPpkWjF3PbLe7dF24r_6Wra0JwTZy?usp=sharing
