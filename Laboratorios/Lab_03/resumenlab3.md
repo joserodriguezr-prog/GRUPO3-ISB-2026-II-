@@ -68,8 +68,11 @@ Durante el registro en reposo se buscó mantener el músculo relajado para obser
 
 
 ![Descripción](imagenes/imagen4.png)
+
 [Ver video 1](videos/video1.mp4)
+
 ![Descripción](imagenes/imagen5.png)
+
 [Ver video 1](videos/video2.mp4)
 
 En el video se debe poder observar:
@@ -133,7 +136,7 @@ Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenS
 
 ### Antebrazo
 
-![Descripción](imagenes/reposoantebrazo.png)
+![Descripción](imagenes/reposo.png)
 
 *Figura 9. Señal registrada del abductor mediante OpenSignals.*
 
