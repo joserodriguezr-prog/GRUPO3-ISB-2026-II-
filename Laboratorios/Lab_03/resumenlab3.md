@@ -33,15 +33,13 @@ La conexión se realizó entre los electrodos colocados sobre el cuerpo y el dis
 
 ### 3.2. Conexión para el trapecio
 
->[!NOTE]
-> *[Insertar aquí la fotografía de la colocación de los electrodos en el trapecio-IMAGEN 2]*
+![Descripción](imagenes/imagen2.png)
 
 *Figura 2. Colocación de los electrodos para el registro de la actividad muscular del trapecio.*
 
 ### 3.3. Conexión BITalino-cables
 
->[!NOTE]
-> *[Insertar aquí la fotografía donde se observe la conexión entre los electrodos, cables y BITalino-IMAGEN3]*
+![Descripción](imagenes/imagen3.png)
 
 *Figura 3. Conexión del BITalino utilizada durante la práctica.*
 
@@ -68,11 +66,11 @@ La intención fue comparar visualmente la señal obtenida en reposo con las señ
 ## 5. Registro de la señal en reposo
 Durante el registro en reposo se buscó mantener el músculo relajado para observar el nivel de actividad eléctrica basal.
 
->[!NOTE]
-> * [Imagen 4]
-> * [Video 1]
-> * [Imagen 5]
-> * [Video 2]
+
+![Descripción](imagenes/imagen4.png)
+[Ver video 1](videos/video1.mp4)
+![Descripción](imagenes/imagen5.png)
+[Ver video 1](videos/video2.mp4)
 
 En el video se debe poder observar:
 - La conexión de los electrodos con el cuerpo.
@@ -82,8 +80,7 @@ En el video se debe poder observar:
 
 ### Señal en reposo
 
->[!NOTE]
-> *[Insertar aquí captura de OpenSignals de la señal en reposo-OS1]*
+![Descripción](imagenes/reposo.png)
 
 *Figura 4. Señal electromiográfica registrada durante el reposo.*
 
@@ -94,17 +91,17 @@ Después del registro en reposo se realizaron tres rondas de movimiento leve.
 
 El objetivo de esta etapa fue observar cómo la actividad eléctrica del músculo cambia cuando se realiza una contracción voluntaria de baja intensidad.
 
-### Abductor
+### Antebrazo
 
->[!NOTE]
-> *[Insertar captura o gráfico correspondiente al abductor-IMAGEN 6 y OPEN SIGNAL MOV LEVE ABD]*
+![Descripción](imagenes/imagen6.png)
+![Descripción](imagenes/leveantebrazo.png)
 
 *Figura 5. Registro de la actividad muscular del abductor durante movimiento leve.*
 
 ### Trapecio
 
->[!NOTE]
-> *[Insertar captura o gráfico correspondiente al trapecio-IMAGEN 7 Y OPEN SIGNAL MOV LEVE TRAPE]*
+![Descripción](imagenes/imagen7.png)
+![Descripción](imagenes/levetrapecio.png)
 
 *Figura 6. Registro de la actividad muscular del trapecio durante movimiento leve.*
 
@@ -117,15 +114,15 @@ Esta medición permitió comparar la actividad muscular obtenida con la condici�
 
 ### Abductor
 
->[!NOTE]
-> *[Insertar gráfico/captura] [imagen 8] [captura del plot de open signal mov fuerte]*
+![Descripción](imagenes/imagen8.png)
+![Descripción](imagenes/fuerteantebrazo.png)
 
 *Figura 7. Actividad electromiográfica del abductor durante una contracción de mayor intensidad.*
 
 ### Trapecio
 
->[!NOTE]
-> *[Insertar gráfico/captura] [imagen 9] [captura de open signal mov fuerte trap]*
+![Descripción](imagenes/imagen9.png)
+![Descripción](imagenes/fuertetrapecio.png)
 
 *Figura 8. Actividad electromiográfica del trapecio durante una contracción de mayor intensidad.*
 
@@ -134,17 +131,15 @@ En esta condición se esperaba obtener una señal con mayor amplitud respecto al
 ## 8. Ploteo de la señal en OpenSignals
 Las señales obtenidas durante la práctica fueron visualizadas utilizando OpenSignals. Este software permitió observar la señal registrada por el BITalino en función del tiempo.
 
-### Abductor
+### Antebrazo
 
->[!NOTE]
-> *[Insertar aquí captura de OpenSignals]*
+![Descripción](imagenes/reposoantebrazo.png)
 
 *Figura 9. Señal registrada del abductor mediante OpenSignals.*
 
 ### Trapecio
 
->[!NOTE]
-> *[Insertar aquí captura de OpenSignals]*
+![Descripción](imagenes/reposotrapecio.png)
 
 *Figura 10. Señal registrada del trapecio mediante OpenSignals.*
 
