@@ -202,9 +202,11 @@ Durante la hipoventilación se realizó una retención voluntaria de la respirac
 
 ## 5.4. Actividad aeróbica
 
-La cuarta etapa consistió en realizar una **actividad aeróbica** con el propósito de evaluar la respuesta cardiovascular frente al ejercicio.
+La cuarta etapa consistió en realizar una actividad aeróbica con el propósito de evaluar la respuesta cardiovascular frente al ejercicio.
 
-La actividad tuvo una duración aproximada de **2 minutos y 50 segundos**.
+La actividad tuvo una duración aproximada de 2 minutos y 50 segundos.
+
+![Ejercicio aeróbico](videos/aerobico.gif)
 
 ### Procedimiento
 
@@ -214,19 +216,11 @@ La actividad tuvo una duración aproximada de **2 minutos y 50 segundos**.
 
 3. Al finalizar el ejercicio se inició rápidamente la adquisición del ECG.
 
-4. Se registraron las tres derivaciones:
+4. Se registraron las tres derivaciones: DI, DII, DIII.
 
-   - DI
-
-   - DII
-
-   - DIII.
-
-5. Se dejó un intervalo aproximado de **30 segundos entre cada derivación**.
+5. Se dejó un intervalo aproximado de 30 segundos entre cada derivación.
 
 La adquisición se realizó rápidamente después de finalizar la actividad para registrar la respuesta cardíaca durante el período inicial de recuperación.
-
-### Objetivo
 
 El objetivo de esta etapa fue observar la respuesta de la actividad eléctrica cardíaca ante el aumento de la demanda cardiovascular producido por la actividad física.
 
@@ -250,48 +244,13 @@ El objetivo de esta etapa fue observar la respuesta de la actividad eléctrica c
 Después de finalizar la actividad aeróbica se registró rápidamente el ECG para observar la respuesta cardiovascular producida por el ejercicio. Esta condición permite comparar la señal con el estado basal y con las pruebas respiratorias.
 
 
-# 6. Resumen del protocolo experimental
-
-El procedimiento completo realizado durante el laboratorio se resume en la siguiente tabla:
-
-| Etapa | Condición | Procedimiento | Duración aproximada | Derivaciones |
-
-|------|-----------|---------------|---------------------|--------------|
-
-| **1** | Basal | Registro en reposo | 30 s | DI, DII, DIII |
-
-| **2** | Hiperventilación | Inhalar, mantener y exhalar | 30 s | DI, DII, DIII |
-
-| **3** | Hipoventilación | Retención voluntaria de la respiración | Según el tiempo alcanzado | DI, DII, DIII |
-
-| **4** | Actividad aeróbica | Ejercicio y medición inmediata | 2 min 50 s | DI, DII, DIII |
-
-Entre las mediciones se realizaron períodos de descanso de acuerdo con el protocolo utilizado durante la práctica.
-
-
-# 7. Video de la señal en reposo
-
-Como parte de los entregables se realizó un video correspondiente a la adquisición de la señal ECG durante la condición de reposo.
-
-En el video se puede observar:
-
-- La colocación de los electrodos sobre el cuerpo.
-
-- La conexión de los electrodos con BITalino.
-
-- La adquisición de la señal ECG.
-
-- La señal ECG visualizada durante el registro.
-
 ### Videos del laboratorio
 
 Los videos grabados durante el laboratorio se encuentran almacenados en una carpeta independiente dentro del mismo repositorio.
 
-**📁 Acceder a los videos del laboratorio:**
+**Acceder a los videos del laboratorio:**
 
 [▶️ Ver carpeta de videos del laboratorio](videos/)
-
-> En la carpeta videos/ se pueden almacenar todos los videos registrados durante la práctica. De esta manera, el README mantiene una estructura ordenada y los archivos multimedia pueden consultarse mediante el enlace anterior.
 
 
 # 8. Ploteo de la señal en OpenSignals
