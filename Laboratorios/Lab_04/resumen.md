@@ -178,7 +178,7 @@ Durante esta etapa, el participante mantuvo la respiración durante el mayor tie
 
 El objetivo de esta etapa fue observar las modificaciones de la actividad cardíaca durante una disminución temporal de la ventilación y comparar los resultados con las condiciones basal e hiperventilación.
 
-![Video de la práctica](videos/videoecg4.gif)
+![Video de la práctica](videos/videoecg5_f.gif)
 
 ### Señales de las tres derivaciones en OpenSignals
 
