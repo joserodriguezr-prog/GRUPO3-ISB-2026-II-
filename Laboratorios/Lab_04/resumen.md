@@ -154,7 +154,7 @@ Durante la hiperventilación se modificó voluntariamente el patrón respiratori
 
 ## 5.3. Hipoventilación
 
-La tercera etapa consistió en realizar una prueba de **hipoventilación**, mediante una retención voluntaria de la respiración.
+La tercera etapa consistió en realizar una prueba de hipoventilación, mediante una retención voluntaria de la respiración.
 
 Durante esta etapa, el participante mantuvo la respiración durante el mayor tiempo posible, siguiendo las indicaciones dadas durante el laboratorio.
 
@@ -174,15 +174,9 @@ Durante esta etapa, el participante mantuvo la respiración durante el mayor tie
 
 7. Se registraron las derivaciones DI, DII y DIII.
 
-8. Entre las mediciones se dejó un período de descanso de aproximadamente **1 minuto y 30 segundos**.
-
-### Objetivo
+8. Entre las mediciones se dejó un período de descanso de aproximadamente 1 minuto y 30 segundos.
 
 El objetivo de esta etapa fue observar las modificaciones de la actividad cardíaca durante una disminución temporal de la ventilación y comparar los resultados con las condiciones basal e hiperventilación.
-
-### Tiempo de retención
-
-**Tiempo registrado: [COLOCAR AQUÍ EL TIEMPO OBTENIDO] segundos.**
 
 ### Señales de las tres derivaciones en OpenSignals
 
@@ -198,6 +192,7 @@ El objetivo de esta etapa fue observar las modificaciones de la actividad cardí
 
 ![Hipoventilación DIII en OpenSignals](imagenes_opensignal/Hipo%20D3%2014-20%20segundos%20%281%29.png)
 
+![Video de la práctica](videos/videoecg4.gif)
 
 ### Descripción
 
