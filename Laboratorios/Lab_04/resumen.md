@@ -11,31 +11,7 @@ Las señales obtenidas durante el laboratorio fueron visualizadas mediante OpenS
 
 
 # 2. Objetivos
-
-## 2.1. Objetivo general
-
-Adquirir y analizar señales de electrocardiograma mediante el sistema BITalino utilizando las derivaciones DI, DII y DIII bajo diferentes condiciones fisiológicas.
-
-## 2.2. Objetivos específicos
-
-- Realizar correctamente la colocación de los electrodos para la adquisición de la señal ECG.
-
-- Utilizar la configuración del triángulo de Einthoven para obtener las derivaciones DI, DII y DIII.
-
-- Adquirir una señal ECG en condiciones de reposo.
-
-- Observar los cambios de la señal ECG durante la hiperventilación.
-
-- Observar los cambios de la señal ECG durante la hipoventilación.
-
-- Evaluar la respuesta cardíaca después de realizar actividad aeróbica.
-
-- Visualizar las señales adquiridas mediante OpenSignals.
-
-- Procesar y graficar las señales mediante Python.
-
-- Comparar las características de la señal ECG bajo las diferentes condiciones experimentales.
-
+Adquirir y analizar señales de electrocardiograma mediante el sistema BITalino utilizando las derivaciones DI, DII y DIII bajo diferentes condiciones fisiológicas, evaluar la respuesta cardíaca después de realizar actividad aeróbica, visualizar las señales adquiridas mediante OpenSignals, finalmente, procesar y graficar las señales mediante Python. Des esta manera, poder comparar las características de la señal ECG bajo las diferentes condiciones experimentales.
 
 # 3. Materiales y equipos
 
@@ -55,68 +31,18 @@ Para la realización del laboratorio se utilizaron los siguientes materiales y e
 
 - Participante para la adquisición de la señal ECG.
 
-
 # 4. Colocación de los electrodos
 
-Para realizar la adquisición de la señal ECG se utilizó la configuración correspondiente al **triángulo de Einthoven**.
+Para realizar la adquisición de la señal ECG se utilizó la configuración equivalente al **triángulo de Einthoven**. colocando los electrodos cerca del corazón, considerando estas ubicaciones:
 
-Para esta práctica se utilizó una disposición equivalente al triángulo de Einthoven, colocando los electrodos cerca del corazón:
+- **RA (Right Arm):** hombro derecho.
 
-- **RA (Right Arm):** región de la clavícula derecha.
-
-- **LA (Left Arm):** región de la clavícula izquierda.
+- **LA (Left Arm):** hombro izquierdo.
 
 - **LL/LF (Left Leg/Left Foot):** cresta ilíaca izquierda.
 
 La denominación clásica de Einthoven utiliza RA, LA y LL. Sin embargo, la guía de BITalino también permite ubicar los electrodos sobre ambas clavículas y la cresta ilíaca izquierda. Esta disposición mantiene la orientación necesaria para obtener las derivaciones DI, DII y DIII.
 
-## 4.1. Triángulo de Einthoven
-
-La configuración utilizada puede representarse de la siguiente manera:
-
-                    LA (+)
-
-                      ●
-
-                     / \\
-
-                    /   \\
-
-                   /     \\
-
-                DI/       \DIII
-
-                 /         \\
-
-                /           \\
-
-               /             \\
-
-        RA (-) ●-------------● LL/LF (+)
-
-                    DII
-
-Las tres derivaciones se obtienen mediante las siguientes diferencias de potencial:
-
-| Derivación | Electrodo negativo | Electrodo positivo |
-
-|------------|--------------------|---------------------|
-
-| **DI** | RA (-) | LA (+) |
-
-| **DII** | RA (-) | LL/LF (+) |
-
-| **DIII** | LA (-) | LL/LF (+) |
-
-Por lo tanto:
-
-- **DI = LA − RA**
-
-- **DII = LL/LF − RA**
-
-- **DIII = LL/LF − LA**
-
-La correcta colocación de los electrodos es importante para obtener una señal ECG adecuada y reducir posibles errores durante la adquisición.
 
 ## 4.2. Evidencia de la colocación de los electrodos
 
