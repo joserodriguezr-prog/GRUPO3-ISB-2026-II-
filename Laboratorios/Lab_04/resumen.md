@@ -275,8 +275,10 @@ El complejo QRS representa principalmente la despolarización de los ventrículo
 ### Onda T
 
 La onda T está relacionada principalmente con la repolarización ventricular y aparece después del complejo QRS.
-imagen ECG COMPONENTES
 
+![Componentes del ECG](videos/componentesECG.jpg)
+
+*Componentes de la señal electrocardiográfica (ECG).*
 
 # 7. Frecuencia cardíaca e intervalo R-R
 
