@@ -224,6 +224,8 @@ La adquisición se realizó rápidamente después de finalizar la actividad para
 
 El objetivo de esta etapa fue observar la respuesta de la actividad eléctrica cardíaca ante el aumento de la demanda cardiovascular producido por la actividad física.
 
+![Video de la práctica](videos/videoecg6.gif)
+
 ### Señales de las tres derivaciones en OpenSignals
 
 #### Derivación I — DI
