@@ -42,26 +42,7 @@ Para realizar la adquisición de la señal ECG se utilizó la configuración equ
 - **LL/LF (Left Leg/Left Foot):** cresta ilíaca izquierda.
 
 La denominación clásica de Einthoven utiliza RA, LA y LL. Sin embargo, la guía de BITalino también permite ubicar los electrodos sobre ambas clavículas y la cresta ilíaca izquierda. Esta disposición mantiene la orientación necesaria para obtener las derivaciones DI, DII y DIII.
-
-
-## 4.2. Evidencia de la colocación de los electrodos
-
-**INSERTAR AQUÍ LA FOTO DE LOS ELECTRODOS COLOCADOS EN EL CUERPO.**
-
-![Colocación de los electrodos](imagenes/colocacion_electrodos.jpg)
-
-Figura 1. Colocación de los electrodos siguiendo la configuración del triángulo de Einthoven.
-
-## 4.3. Conexión de los electrodos con BITalino
-
-Los electrodos fueron conectados al sistema BITalino mediante los cables correspondientes. Se verificó que las conexiones fueran correctas y que existiera un contacto adecuado entre los electrodos y la piel.
-
-**INSERTAR AQUÍ LA FOTO DE LAS CONEXIONES ENTRE BITALINO Y LOS ELECTRODOS.**
-
-![Conexión de los electrodos con BITalino](imagenes/conexion_bitalino.jpg)
-
-Figura 2. Conexión de los electrodos con el sistema BITalino.
-
+![Colocación de electrodos en el participante](videos/imagenecg1.png)
 
 # 5. Procedimiento experimental
 
