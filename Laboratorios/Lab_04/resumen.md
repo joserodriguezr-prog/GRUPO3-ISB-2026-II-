@@ -357,7 +357,7 @@ Después de importar y procesar los datos obtenidos mediante BITalino, se realiz
 
 ### Derivación I — DI
 
-![Hipoventilación DI en Python](imagenes_python/Hipo%20D1%20%281%29.png)
+![Hipoventilación DI en Python](imagenes_python/hipo%20D1%20%281%29.png)
 
 ### Derivación II — DII
 
@@ -406,20 +406,6 @@ Después de realizar la actividad aeróbica se registró rápidamente la señal 
 
 # 9.5. Comparación de resultados
 
-A partir de las señales obtenidas se puede realizar una comparación de los principales parámetros del ECG entre las diferentes condiciones experimentales.
 
-| Condición | Frecuencia cardíaca | Intervalo R-R | Observación |
-
-|-----------|---------------------|----------------|-------------|
-
-| Basal | [COLOCAR VALOR] BPM | [COLOCAR VALOR] s | [COLOCAR OBSERVACIÓN] |
-
-| Hiperventilación | [COLOCAR VALOR] BPM | [COLOCAR VALOR] s | [COLOCAR OBSERVACIÓN] |
-
-| Hipoventilación | [COLOCAR VALOR] BPM | [COLOCAR VALOR] s | [COLOCAR OBSERVACIÓN] |
-
-| Actividad aeróbica | [COLOCAR VALOR] BPM | [COLOCAR VALOR] s | [COLOCAR OBSERVACIÓN] |
-
-Esta comparación permitirá identificar las variaciones de la frecuencia cardíaca y de los intervalos R-R producidas por los cambios en la respiración y por la actividad física.
 
 
