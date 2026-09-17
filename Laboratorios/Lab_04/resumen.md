@@ -178,6 +178,8 @@ Durante esta etapa, el participante mantuvo la respiración durante el mayor tie
 
 El objetivo de esta etapa fue observar las modificaciones de la actividad cardíaca durante una disminución temporal de la ventilación y comparar los resultados con las condiciones basal e hiperventilación.
 
+![Video de la práctica](videos/videoecg4.gif)
+
 ### Señales de las tres derivaciones en OpenSignals
 
 #### Derivación I — DI
@@ -192,7 +194,6 @@ El objetivo de esta etapa fue observar las modificaciones de la actividad cardí
 
 ![Hipoventilación DIII en OpenSignals](imagenes_opensignal/Hipo%20D3%2014-20%20segundos%20%281%29.png)
 
-![Video de la práctica](videos/videoecg4.gif)
 
 ### Descripción
 
