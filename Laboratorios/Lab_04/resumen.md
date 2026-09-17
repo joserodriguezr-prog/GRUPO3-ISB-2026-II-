@@ -106,13 +106,13 @@ La lectura basal corresponde al estado de referencia del participante en reposo.
 
 ## 5.2. Hiperventilación
 
-La segunda etapa correspondió a la prueba de **hiperventilación**, en la cual se modificó voluntariamente el patrón respiratorio del participante.
+La segunda etapa correspondió a la prueba de hiperventilación, en la cual se modificó voluntariamente el patrón respiratorio del participante.
 
 El procedimiento indicado consistió en realizar repetidamente el siguiente ciclo:
 
 **Inhalar → mantener → exhalar**
 
-La prueba tuvo una duración aproximada de **30 segundos**.
+La prueba tuvo una duración aproximada de 30 segundos.
 
 ### Procedimiento
 
@@ -126,15 +126,11 @@ La prueba tuvo una duración aproximada de **30 segundos**.
 
 5. Se adquirieron las derivaciones DI, DII y DIII.
 
-6. Entre cada registro se dejó un período de reposo de aproximadamente **1 minuto**.
-
-### Objetivo
+6. Entre cada registro se dejó un período de reposo de aproximadamente 1 minuto.
 
 El objetivo de esta etapa fue observar las variaciones de la actividad cardíaca asociadas a la modificación del patrón respiratorio y compararlas con la condición basal.
 
-### Evidencia
-
-**INSERTAR AQUÍ LA FOTO DEL PARTICIPANTE O DE LA ADQUISICIÓN DURANTE LA HIPERVENTILACIÓN.**
+![Video de la práctica](videos/videoecg3.gif)
 
 ### Señales de las tres derivaciones en OpenSignals
 
