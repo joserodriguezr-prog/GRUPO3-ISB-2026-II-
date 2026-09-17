@@ -404,8 +404,11 @@ Durante la hipoventilación se realizó una retención voluntaria de la respirac
 Después de realizar la actividad aeróbica se registró rápidamente la señal ECG. Esta condición permitió observar la respuesta cardiovascular producida por el ejercicio y compararla con la condición de reposo.
 
 
-# 9.5. Comparación de resultados
+## 10. Conclusiones
 
-
-
-
+- Se logró adquirir la señal ECG utilizando tres electrodos ubicados en el hombro derecho, hombro izquierdo y cresta ilíaca izquierda, obteniendo las derivaciones DI, DII y DIII.
+- Se observaron variaciones en la señal ECG al comparar las diferentes condiciones experimentales: basal, hiperventilación, hipoventilación y actividad aeróbica.
+- El procesamiento mediante Python permitió aplicar filtros para reducir el ruido presente en las señales y obtener registros más claros para su posterior análisis.
+- La actividad aeróbica produjo cambios más evidentes en la frecuencia cardíaca respecto a la medición basal, mientras que las modificaciones de la respiración también generaron variaciones en el comportamiento de la señal.
+- El uso de OpenSignals y Python permitió visualizar, procesar y comparar las señales ECG obtenidas durante las diferentes condiciones fisiológicas.
+- La práctica permitió relacionar los cambios fisiológicos del participante con las características observables de una señal biomédica, reforzando la importancia del procesamiento digital para mejorar su análisis.
