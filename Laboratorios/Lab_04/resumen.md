@@ -82,7 +82,7 @@ Esta medición permitió obtener una señal ECG de referencia antes de modificar
 
 La señal obtenida durante esta etapa se utilizó como referencia para comparar las modificaciones observadas durante las siguientes condiciones.
 
-[▶️ Ver video de la primera medición basal](videos/videoecg1.mp4)
+![Primera medición basal](videos/medicion_basal.gif)
 
 ### Señales de las tres derivaciones en OpenSignals
 
