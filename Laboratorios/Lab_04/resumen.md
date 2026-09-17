@@ -1,3 +1,4 @@
+![ ](videos/Caratula.png)
 # 1. Introducción
 
 En el presente laboratorio se realizó la adquisición y análisis de señales de electrocardiograma (ECG) utilizando el sistema de adquisición BITalino. El objetivo principal fue registrar la actividad eléctrica cardíaca mediante las tres derivaciones bipolares de las extremidades: DI, DII y DIII.
