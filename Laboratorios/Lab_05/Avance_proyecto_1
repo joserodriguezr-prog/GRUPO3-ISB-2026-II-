@@ -1,0 +1,60 @@
+# Avance 1: monitorización de cambios asociados con fatiga mediante sEMG del bíceps braquial
+
+## 1. Planteamiento del problema
+
+Con el envejecimiento pueden disminuir la masa muscular, la fuerza y la capacidad de activar el músculo, aunque estos cambios no avanzan necesariamente al mismo ritmo. Pérdida de masa significa menos tejido muscular; pérdida de fuerza significa menor capacidad para producir fuerza. La sarcopenia es una condición que requiere una evaluación específica: según el consenso EWGSOP2, la fuerza baja hace sospecharla y la cantidad o calidad muscular baja ayuda a confirmarla. Una medición sEMG del bíceps no permite diagnosticarla [1].
+
+Durante un ejercicio, la fatiga puede dificultar que una persona mantenga la fuerza o la postura solicitada. Reconocer cambios durante la tarea podría ayudar a ajustar el esfuerzo y ofrecer descansos en un futuro programa de rehabilitación. Sin embargo, no es correcto afirmar que todos los adultos mayores se fatigan antes: una revisión encontró menor fatigabilidad en mayores durante algunas contracciones isométricas, pero mayor fatigabilidad en ciertas tareas dinámicas [2]. Un estudio reciente mostró que es posible seguir cambios sEMG durante ejercicio en adultos mayores, aunque utilizó músculos del antebrazo, no el bíceps [3].
+
+**PROBLEMA CENTRAL.** Durante una contracción controlada del bíceps, necesitamos identificar cambios individuales de sEMG compatibles con la aparición progresiva de fatiga para ofrecer biofeedback. La señal por sí sola no permite asignar un «porcentaje de fatiga» ni establecer un diagnóstico.
+
+## 2. Propuesta de solución
+
+El bíceps braquial es superficial y accesible para colocar electrodos. La sEMG registra su actividad eléctrica sin introducir agujas. Una contracción isométrica, con el codo y la carga controlados, facilita comparar distintos momentos de una misma prueba; aun así, conviene medir también la fuerza para comprobar que la tarea se mantiene constante. La guía BITalino adjunta ilustra el registro en bíceps, y la ficha del sensor indica una colocación bipolar con unos 20 mm entre electrodos, alineados con las fibras [4].
+
+Durante esta contracción isométrica sostenida, el sistema evaluará la aparición de dos fenómenos fisiológicos simultáneos característicos de la fatiga:
+
+* **MDF desciende (Cambio Espectral):** La acumulación de metabolitos (como el ácido láctico) provoca una disminución en la velocidad de conducción de las fibras musculares [11]. Esto alarga la duración de los potenciales de acción, comprimiendo el espectro electromiográfico y desplazando la frecuencia mediana hacia la izquierda.
+* **RMS aumenta (Cambio de Amplitud):** Debido a que las fibras musculares activas pierden eficiencia, el sistema nervioso central debe compensar para mantener la fuerza constante. Lo hace reclutando unidades motoras adicionales (más grandes y de contracción rápida) y aumentando la frecuencia de disparo, lo que se traduce en un incremento de la amplitud global de la señal [11].
+
+Protocolo piloto propuesto, solo con estudiantes sanos: registrar el brazo dominante, con el codo aproximadamente a 90° y la posición del antebrazo estandarizada. Tras familiarización, estimar la contracción voluntaria máxima mediante intentos breves y descansos. Solicitar luego una flexión isométrica cercana al 30 % de esa fuerza, durante hasta 90–120 segundos, con dos intentos separados por varios minutos de descanso. Usar, si está disponible, un dinamómetro sencillo para mostrar y registrar la fuerza objetivo. Detener la prueba ante dolor, pérdida de postura, incapacidad para mantener la fuerza o deseo de parar. Esta duración es un punto de partida para una prueba piloto: si no aparecen cambios medibles, se informará ese resultado en vez de asumir que hubo fatiga. El estudio de referencia utilizó una contracción sostenida al 35 % de la máxima, pero llegó hasta el fallo de la tarea; ese final no es necesario para el primer prototipo [6].
+
+## 3. Procesamiento
+
+* **A. Muestreo.** Configurar BITalino a 1000 muestras/s y conectar el sensor a una de sus entradas de 10 bits. Su ficha especifica esa frecuencia de muestreo; no debe suponerse que una configuración de 100 muestras/s permite estudiar adecuadamente el espectro de sEMG [5].
+* **B. Pasabanda.** Como inicio razonable, aplicar un filtro digital aproximado de 30–400 Hz, tras verificar el modelo concreto del sensor. La ficha consultada indica una banda analógica de 25–480 Hz: el filtro digital no puede recuperar frecuencias que el sensor ya eliminó [4].
+* **C. Notch de 60 Hz.** Aplicarlo solo si la PSD revela interferencia eléctrica apreciable. Registrar su uso, porque eliminar 60 Hz también modifica parte del espectro muscular y puede alterar la MDF [7].
+* **D. RMS.** Es una medida de la amplitud de la señal filtrada. Puede aumentar al sostener una fuerza mientras cambia la activación neuromuscular, pero también varía por la posición de los electrodos, la postura y otros factores. No equivale directamente a fuerza ni a porcentaje de fatiga [7, 8].
+* **E. MDF.** Es la frecuencia que divide la potencia del espectro en dos mitades. Durante ciertas contracciones fatigantes, el espectro se desplaza hacia frecuencias menores y la MDF desciende. Es una manifestación eléctrica compatible con fatiga, no una medida exclusiva de ella [6, 7].
+* **F. MNF.** Es el promedio de las frecuencias ponderado por su potencia. También puede seguir cambios espectrales, pero añadirla como variable principal aportaría poca simplicidad al primer prototipo; puede conservarse para un análisis exploratorio [7].
+* **G. PSD/FFT.** La FFT permite estimar la PSD de cada ventana y calcular la MDF. Hacer este análisis sobre la señal filtrada sin rectificar, para conservar el contenido frecuencial que se desea interpretar [7].
+* **H. Ventanas.** Comenzar con ventanas de 2 segundos, actualizadas cada 1 segundo. Es una elección de implementación que equilibra estabilidad de la estimación y rapidez de respuesta; debe probarse con las señales obtenidas.
+* **I. Normalización.** Tomar como referencia los primeros segundos estables de cada contracción y mostrar, por separado, RMS/RMS inicial y MDF/MDF inicial. Comparar personas o sesiones exigiría además repetir la colocación de electrodos, la postura y la carga. Un cociente de 0,8 de MDF no significa «80 % de fatiga».
+
+Las dos variables principales serán RMS y MDF. Una alerta experimental requeriría una caída sostenida de MDF a lo largo de varias ventanas, con señal de calidad aceptable y fuerza o postura conservadas; RMS serviría de información complementaria, no de condición infalible. El criterio concreto de alerta debe ajustarse y evaluarse con los datos del piloto, comparándolo con la fuerza registrada, la capacidad de mantener la tarea y la percepción de esfuerzo. No hay un umbral universal que convierta RMS o MDF en 80 % fatigado [6–8].
+
+## 4. Frontend
+
+Python y Streamlit son adecuados para un prototipo universitario. El programa recibiría la señal de BITalino, calcularía las variables por ventanas y actualizaría la pantalla aproximadamente cada segundo.
+
+El usuario vería el tiempo de ejercicio, si mantiene la fuerza objetivo y mensajes sencillos: «señal estable», «cambio sostenido compatible con fatiga» o «revisar postura / descansar». El profesional o investigador vería además la señal original y filtrada, las curvas de RMS y MDF, la calidad del registro y los datos guardados de cada intento. La interfaz presentaría biofeedback experimental, sin anunciar que ha diagnosticado fatiga ni sustituir una indicación clínica.
+
+## 5. Paper de referencia
+
+**Artículo principal [6]:** Bilodeau, M., Henderson, T. K., Nolta, B. E., Pursley, P. J., y Sandfort, G. L. (2001). Effect of aging on fatigue characteristics of elbow flexor muscles during sustained submaximal contraction. DOI: 10.1152/jappl.2001.91.6.2654; PMID: 11717231.
+
+Estudió a 10 adultos jóvenes y 9 mayores durante una contracción sostenida de los flexores del codo al 35 % de la contracción voluntaria máxima. Registró sEMG, incluido el bíceps braquial, y examinó la amplitud RMS y la frecuencia mediana, junto con medidas mecánicas y neuromusculares. Encontró cambios menores de MDF en los mayores y evidencia de fatiga central al final de la tarea en 7 de 9 mayores frente a 3 de 10 jóvenes. Es el referente más cercano por músculo, edades, contracción y variables. Podemos adoptar la comparación temporal bajo fuerza controlada; no podemos deducir de él un umbral de alerta universal ni la eficacia clínica de nuestro futuro sistema [6].
+
+## REFERENCIAS
+
+* [1] Cruz-Jentoft, A. J., Bahat, G., Bauer, J., Boirie, Y., Bruyère, O., Cederholm, T., Cooper, C., Landi, F., Rolland, Y., Sayer, A. A., Schneider, S. M., Sieber, C. C., Topinkova, E., Vandewoude, M., Visser, M., y Zamboni, M. (2019). Sarcopenia: Revised European consensus on definition and diagnosis. Age and Ageing, 48(1), 16–31. [https://doi.org/10.1093/ageing/afy169](https://doi.org/10.1093/ageing/afy169?utm_source=gemini)
+* [2] Christie, A., Snook, E. M., y Kent-Braun, J. A. (2011). Systematic review and meta-analysis of skeletal muscle fatigue in old age. Medicine & Science in Sports & Exercise, 43(4), 568–577. [https://doi.org/10.1249/MSS.0b013e3181f9b1c4](https://doi.org/10.1249/MSS.0b013e3181f9b1c4?utm_source=gemini)
+* [3] Ou, J., Li, N., He, H., He, J., Zhang, L., y Jiang, N. (2024). Detecting muscle fatigue among community-dwelling senior adults with shape features of the probability density function of sEMG. Journal of NeuroEngineering and Rehabilitation, 21, artículo 196. [https://doi.org/10.1186/s12984-024-01497-5](https://doi.org/10.1186/s12984-024-01497-5?utm_source=gemini)
+* [4] PLUX Biosignals. (2016). Electromyography (EMG): Sensor data sheet. [https://support.pluxbiosignals.com/wp-content/uploads/2021/11/revolution-emg-sensor-datasheet-1.pdf](https://support.pluxbiosignals.com/wp-content/uploads/2021/11/revolution-emg-sensor-datasheet-1.pdf)
+* [5] PLUX Biosignals. (2020). BITalino (r)evolution Core: Component data sheet. [https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-core-datasheet.pdf](https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-core-datasheet.pdf)
+* [6] Bilodeau, M., Henderson, T. K., Nolta, B. E., Pursley, P. J., y Sandfort, G. L. (2001). Effect of aging on fatigue characteristics of elbow flexor muscles during sustained submaximal contraction. Journal of Applied Physiology, 91(6), 2654–2664. [https://doi.org/10.1152/jappl.2001.91.6.2654](https://doi.org/10.1152/jappl.2001.91.6.2654?utm_source=gemini)
+* [7] Cifrek, M., Medved, V., Tonković, S., y Ostojić, S. (2009). Surface EMG based muscle fatigue evaluation in biomechanics. Clinical Biomechanics, 24(4), 327–340. [https://doi.org/10.1016/j.clinbiomech.2009.01.010](https://doi.org/10.1016/j.clinbiomech.2009.01.010?utm_source=gemini)
+* [8] Disselhorst-Klug, C., Schmitz-Rode, T., y Rau, G. (2009). Surface electromyography and muscle force: Limits in sEMG–force relationship and new approaches for applications. Clinical Biomechanics, 24(3), 225–235. [https://doi.org/10.1016/j.clinbiomech.2008.08.003](https://doi.org/10.1016/j.clinbiomech.2008.08.003?utm_source=gemini)
+* [9] Macaluso, A., De Vito, G., Felici, F., y Nimmo, M. A. (2000). Electromyogram changes during sustained contraction after resistance training in women in their 3rd and 8th decades. European Journal of Applied Physiology, 82, 418–424. [https://doi.org/10.1007/s004210000212](https://doi.org/10.1007/s004210000212?utm_source=gemini)
+* [10] Krishnan, B., Zanelli, S., Boudaoud, S., Scapucciati, L., McPhee, J., y Jiang, N. (2023). Age-sensitive high density surface electromyogram indices for detecting muscle fatigue using core shape modelling. Biomedical Signal Processing and Control, 81, artículo 104446. [https://doi.org/10.1016/j.bspc.2022.104446](https://doi.org/10.1016/j.bspc.2022.104446?utm_source=gemini)
+* [11] Referencia sobre fisiología de la fatiga muscular y alteraciones electromiográficas (Adaptada del documento de trabajo original).
