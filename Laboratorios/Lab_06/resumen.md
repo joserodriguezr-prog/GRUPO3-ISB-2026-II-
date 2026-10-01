@@ -91,6 +91,7 @@ Por el contrario, cuando los ojos se encuentran abiertos, la actividad alpha pue
 # 4.3. Actividad de preguntas
 
 Posteriormente, se realizó una actividad basada en diferentes preguntas. Durante esta etapa, el participante debía prestar atención a las preguntas planteadas y realizar el procesamiento mental correspondiente mientras se continuaba registrando la actividad EEG.
+![Fotografía durante las preguntas](imagenes_y_videos/preguntasFoto.jpeg)
 
 Las preguntas realizadas fueron:
 
