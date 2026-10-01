@@ -192,11 +192,11 @@ Después de las actividades cognitivas, se presentó un estímulo de música sua
 
 Finalmente, se presentó un estímulo musical de mayor intensidad o ritmo, correspondiente a música fuerte o movida. Se continuó registrando la señal EEG durante esta condición.
 
-### Señal EEG durante música fuerte
+### Señal EEG música fuerte – registro 1
 
 ![Señal EEG durante música fuerte](imagenes_y_videos/musica_fuerte.png)
 
-### Señal EEG durante música movida
+### Señal EEG música fuerte – registro 2
 
 ![Señal EEG durante música movida](imagenes_y_videos/musica_movida.png)
 
@@ -241,3 +241,4 @@ Finalmente, el laboratorio permitió reconocer la importancia de controlar los m
 ---
 
 # 8. Señales procesadas en Python
+insertar imagenes de python
