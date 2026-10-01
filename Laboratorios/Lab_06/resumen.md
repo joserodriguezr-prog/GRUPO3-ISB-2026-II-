@@ -41,7 +41,6 @@ Para la realización del laboratorio se utilizaron los siguientes materiales:
 - Computadora.
 - Software OpenSignals.
 - Conexión Bluetooth.
-- Material audiovisual para las diferentes actividades experimentales.
 
 ---
 
@@ -61,15 +60,10 @@ La señal basal permitió obtener un registro de referencia que posteriormente p
 
 ![Señal EEG basal](imagenes_y_videos/basal.png)
 
-### ¿Qué se esperaba observar?
 
 Teóricamente, durante el registro basal se esperaba obtener una señal relativamente estable, sin cambios bruscos producidos por movimientos voluntarios. La guía indica que para esta etapa se debe adquirir una señal con bajo nivel de ruido y sin movimientos, manteniendo una respiración normal y evitando movimientos oculares.
 
 Por lo tanto, la señal basal sirve como referencia para comparar posteriormente los cambios producidos por las diferentes actividades.
-
-### Comprobación experimental
-
-Al comparar la señal obtenida con lo esperado teóricamente, se puede evaluar si el registro presenta un comportamiento relativamente estable y si existen artefactos evidentes. En caso de observar variaciones bruscas, estas podrían estar relacionadas con movimientos, actividad muscular u otras interferencias durante la adquisición.
 
 ---
 
@@ -87,17 +81,10 @@ Esta actividad permite observar cambios en la actividad cerebral asociados con l
 
 ![Señal EEG durante apertura y cierre de ojos](imagenes_y_videos/apertura_cierre.png)
 
-### ¿Qué se esperaba observar?
 
 De acuerdo con la teoría presentada en la guía, durante el cierre de los ojos se espera observar una mayor presencia de actividad correspondiente a la banda alpha, cuya frecuencia se encuentra aproximadamente entre 8 y 12 Hz.
 
-Por el contrario, cuando los ojos se encuentran abiertos, la actividad alpha puede disminuir. La guía muestra precisamente que las ondas alpha pueden distinguirse con mayor claridad durante los ojos cerrados. :chatgpt-content-reference{index="0"}
-
-### Comprobación experimental
-
-Para comprobar este comportamiento, se pueden comparar los segmentos de la señal correspondientes a los ojos abiertos y cerrados. Si durante el cierre de los ojos se observa una mayor presencia de oscilaciones compatibles con la banda alpha, el resultado sería consistente con lo esperado teóricamente.
-
-Sin embargo, la señal RAW puede contener diferentes componentes de frecuencia y artefactos, por lo que estos cambios pueden ser más evidentes mediante un análisis de frecuencia.
+Por el contrario, cuando los ojos se encuentran abiertos, la actividad alpha puede disminuir. La guía muestra precisamente que las ondas alpha pueden distinguirse con mayor claridad durante los ojos cerrados. 
 
 ---
 
@@ -163,13 +150,10 @@ Las preguntas realizadas fueron:
 
 ![Señal EEG de la pregunta 7](imagenes_y_videos/preg7.png)
 
-### ¿Qué se esperaba observar?
 
-La actividad de preguntas implicaba mantener la atención y realizar procesamiento mental. En la guía del laboratorio se indica que la actividad cognitiva puede relacionarse con cambios en las bandas de frecuencia del EEG. En particular, la banda beta, situada entre 12 y 25 Hz, está relacionada con el pensamiento activo y la concentración. :chatgpt-content-reference{index="1"}
+La actividad de preguntas implicaba mantener la atención y realizar procesamiento mental. En la guía del laboratorio se indica que la actividad cognitiva puede relacionarse con cambios en las bandas de frecuencia del EEG. En particular, la banda beta, situada entre 12 y 25 Hz, está relacionada con el pensamiento activo y la concentración. 
 
 Por ello, durante las preguntas se esperaba encontrar modificaciones en la actividad EEG asociadas al procesamiento cognitivo. Sin embargo, no debe asumirse que cualquier cambio visible en la señal RAW representa directamente un aumento de concentración.
-
-### Comprobación experimental
 
 Las señales obtenidas para las diferentes preguntas pueden compararse entre sí y con la señal basal. Para una comprobación más precisa, sería necesario analizar las bandas de frecuencia y observar si existen cambios en la potencia de las bandas relacionadas con la actividad cognitiva.
 
@@ -183,13 +167,9 @@ Además de la actividad general de preguntas, se realizó un registro específic
 
 ![Señal EEG de la pregunta 5](imagenes_y_videos/pregunta5.png)
 
-### ¿Qué se esperaba observar?
 
 Al tratarse de una actividad que requiere atención y procesamiento mental, se esperaba que la señal presentara modificaciones respecto al estado basal. Desde el punto de vista teórico, la actividad relacionada con el pensamiento activo y la concentración puede estar asociada con la banda beta, ubicada entre 12 y 25 Hz.
 
-### Comprobación experimental
-
-La señal obtenida puede compararse con el registro basal y con las demás actividades cognitivas. Para determinar si realmente existe un cambio relacionado con una determinada banda, sería necesario realizar un análisis de frecuencia y no basarse únicamente en la amplitud de la señal RAW.
 
 ---
 
@@ -205,15 +185,6 @@ Después de las actividades cognitivas, se presentó un estímulo de música sua
 
 ![Señal EEG durante música suave 2](imagenes_y_videos/musica_suave2.png)
 
-### ¿Qué se esperaba observar?
-
-Durante esta actividad se esperaba observar la respuesta de la señal EEG frente al estímulo auditivo. Sin embargo, la guía utilizada en el laboratorio no establece una banda de frecuencia específica que necesariamente deba aumentar o disminuir durante la exposición a música suave.
-
-Por ello, esta etapa debe analizarse principalmente mediante la comparación de la señal obtenida durante la música suave con las condiciones anteriores.
-
-### Comprobación experimental
-
-Se pueden comparar los registros obtenidos durante la música suave con la señal basal y con las actividades realizadas anteriormente. Las diferencias observadas deben interpretarse con precaución, debido a que pueden estar relacionadas tanto con cambios en la actividad cerebral como con artefactos o variaciones propias de la adquisición.
 
 ---
 
@@ -229,16 +200,6 @@ Finalmente, se presentó un estímulo musical de mayor intensidad o ritmo, corre
 
 ![Señal EEG durante música movida](imagenes_y_videos/musica_movida.png)
 
-### ¿Qué se esperaba observar?
-
-Al igual que en la condición de música suave, el objetivo fue observar el comportamiento de la señal EEG frente a un estímulo auditivo diferente. La guía del laboratorio no establece una respuesta específica de una determinada banda de frecuencia para la música fuerte o movida.
-
-Por esta razón, no se puede afirmar previamente que una determinada banda necesariamente aumentará o disminuirá. La comparación debe realizarse a partir de las señales realmente obtenidas durante el experimento.
-
-### Comprobación experimental
-
-Los registros de música fuerte y música movida pueden compararse con los obtenidos durante la música suave y con el registro basal. De esta manera, se pueden identificar posibles diferencias en el comportamiento de la señal durante los distintos estímulos auditivos.
-
 ---
 
 # 5. Comparación de las señales obtenidas
@@ -247,11 +208,9 @@ Durante el laboratorio se obtuvieron registros EEG correspondientes a diferentes
 
 La señal basal permitió establecer una referencia para las comparaciones posteriores. En esta condición se esperaba obtener una señal relativamente estable y con pocos artefactos.
 
-Durante la apertura y cierre de los ojos se esperaba observar principalmente modificaciones relacionadas con la actividad alpha. Según la guía, esta actividad puede distinguirse con mayor claridad durante los ojos cerrados. :chatgpt-content-reference{index="2"}
+Durante la apertura y cierre de los ojos se esperaba observar principalmente modificaciones relacionadas con la actividad alpha. Según la guía, esta actividad puede distinguirse con mayor claridad durante los ojos cerrados. 
 
-Durante las preguntas y la pregunta 5, la actividad cognitiva permitió analizar posibles modificaciones relacionadas con la atención y el procesamiento mental. La banda beta, ubicada entre 12 y 25 Hz, se encuentra relacionada con el pensamiento activo y la concentración según la guía. :chatgpt-content-reference{index="3"}
-
-En las condiciones de música suave y música fuerte o movida se realizó una comparación experimental de las señales. Debido a que la guía no establece una respuesta específica para estos estímulos, las diferencias deben describirse a partir de los registros obtenidos sin asumir previamente un resultado determinado.
+Durante las preguntas y la pregunta 5, la actividad cognitiva permitió analizar posibles modificaciones relacionadas con la atención y el procesamiento mental. La banda beta, ubicada entre 12 y 25 Hz, se encuentra relacionada con el pensamiento activo y la concentración según la guía. 
 
 ---
 
@@ -261,27 +220,13 @@ Durante la adquisición de EEG es importante considerar la presencia de artefact
 
 Entre los principales artefactos se encuentran los movimientos oculares, el parpadeo, los movimientos de la mandíbula, la actividad muscular y el ruido eléctrico.
 
-La guía señala específicamente que incluso pequeñas activaciones musculares, como los movimientos de los ojos o de la mandíbula, pueden producir artefactos en el registro EEG. :chatgpt-content-reference{index="4"}
+La guía señala específicamente que incluso pequeñas activaciones musculares, como los movimientos de los ojos o de la mandíbula, pueden producir artefactos en el registro EEG. 
 
 Por este motivo, las variaciones observadas en las señales deben analizarse teniendo en cuenta tanto la actividad cerebral como las posibles interferencias presentes durante la adquisición.
 
 ---
 
-# 7. Análisis general
-
-El análisis de las señales obtenidas permitió comparar el comportamiento del EEG bajo diferentes condiciones experimentales.
-
-En el registro basal se obtuvo una referencia correspondiente al estado de reposo. Durante la apertura y cierre de los ojos se pudo analizar el cambio de la actividad cerebral asociado a la condición visual, teniendo como principal referencia teórica la actividad alpha.
-
-Durante las preguntas y la pregunta 5 se analizó la señal mientras el participante realizaba actividades que requerían atención y procesamiento mental. En estas condiciones, la banda beta constituye una de las frecuencias de interés debido a su relación con el pensamiento activo y la concentración.
-
-Finalmente, las condiciones de música suave y música fuerte o movida permitieron realizar una comparación experimental de la respuesta EEG ante diferentes estímulos auditivos.
-
-En todos los casos, la interpretación de las señales debe considerar la posible presencia de artefactos y no debe basarse únicamente en la amplitud de la señal RAW.
-
----
-
-# 8. Conclusiones
+# 7. Conclusiones
 
 La realización del laboratorio permitió comprender el proceso de adquisición de señales electroencefalográficas mediante el sistema BITalino y el software OpenSignals.
 
@@ -289,6 +234,10 @@ La adquisición de una señal basal permitió establecer una referencia para las
 
 Las actividades de preguntas y la pregunta 5 permitieron observar el comportamiento de la señal durante tareas que requieren atención y procesamiento mental, teniendo como referencia la actividad de la banda beta.
 
-Por otro lado, las condiciones de música suave y música fuerte o movida permitieron comparar experimentalmente la señal EEG ante diferentes estímulos auditivos, sin asumir una respuesta específica de frecuencia debido a que esta no se establece en la guía utilizada.
+Por otro lado, las condiciones de música suave y música fuerte o movida permitieron comparar experimentalmente la señal EEG ante diferentes estímulos auditivos.
 
 Finalmente, el laboratorio permitió reconocer la importancia de controlar los movimientos y mantener una adecuada colocación de los electrodos, debido a la sensibilidad de la señal EEG frente a diferentes tipos de artefactos.
+
+---
+
+# 8. Señales procesadas en Python
