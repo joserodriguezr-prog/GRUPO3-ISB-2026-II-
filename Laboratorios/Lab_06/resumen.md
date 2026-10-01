@@ -1,5 +1,5 @@
 # LABORATORIO 06: ELECTROENCEFALOGRAFÍA (EEG)
-
+![Carátula del laboratorio EEG](imagenes_y_videos/caratulaeeg.png)
 ## 1. Introducción
 
 La electroencefalografía (EEG) es una técnica que permite registrar la actividad eléctrica del cerebro mediante electrodos colocados sobre el cuero cabelludo. La señal obtenida permite analizar diferentes bandas de frecuencia asociadas a la actividad cerebral, como delta, theta, alpha, beta y gamma.
