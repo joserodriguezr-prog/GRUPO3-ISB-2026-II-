@@ -145,7 +145,7 @@ Las señales obtenidas para las diferentes preguntas pueden compararse entre sí
 
 ---
 
-# 4.4. Actividad correspondiente a la pregunta 5
+# 4.4. Actividad correspondiente a la pregunta 5 (se creyo perdida, por un corte de medición)
 
 Además de la actividad general de preguntas, se realizó un registro específico correspondiente a la pregunta 5.
 
@@ -227,4 +227,4 @@ Finalmente, el laboratorio permitió reconocer la importancia de controlar los m
 ---
 
 # 8. Señales procesadas en Python
-insertar imagenes de python
+ Se encuentra en la carpeta Resultados_EEG
