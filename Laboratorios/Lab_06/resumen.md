@@ -97,7 +97,7 @@ Las preguntas realizadas fueron:
 
 ### Pregunta 1
 
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 1]
+**Pregunta:** Empieza en 100 y resta 7 sucesivamente durante cinco pasos. ¿A qué número llegas?
 
 **Señal obtenida:**
 
@@ -105,7 +105,7 @@ Las preguntas realizadas fueron:
 
 ### Pregunta 2
 
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 2]
+**Pregunta:** Si un objeto cuesta S/ 80 y tiene 25 % de descuento, ¿cuánto pagarías?
 
 **Señal obtenida:**
 
@@ -113,7 +113,7 @@ Las preguntas realizadas fueron:
 
 ### Pregunta 3
 
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 3]
+**Pregunta:** Si 4 personas reparten S/ 180 en partes iguales y luego cada una entrega S/ 5, ¿cuánto conserva cada persona?
 
 **Señal obtenida:**
 
@@ -121,7 +121,7 @@ Las preguntas realizadas fueron:
 
 ### Pregunta 4
 
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 4]
+**Pregunta:** Si perdieras todos tus recuerdos, ¿seguirías siendo la misma persona? ¿Por qué?
 
 **Señal obtenida:**
 
@@ -129,27 +129,12 @@ Las preguntas realizadas fueron:
 
 ### Pregunta 5
 
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 5]
+**Pregunta:** ¿Qué influye más en quién eres: tus decisiones o las experiencias que has vivido?
 
 **Señal obtenida:**
 
 ![Señal EEG de la pregunta 5](imagenes_y_videos/preg5.png)
 
-### Pregunta 6
-
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 6]
-
-**Señal obtenida:**
-
-![Señal EEG de la pregunta 6](imagenes_y_videos/preg6.png)
-
-### Pregunta 7
-
-**Pregunta:** [COMPLETAR AQUÍ LA PREGUNTA 7]
-
-**Señal obtenida:**
-
-![Señal EEG de la pregunta 7](imagenes_y_videos/preg7.png)
 
 
 La actividad de preguntas implicaba mantener la atención y realizar procesamiento mental. En la guía del laboratorio se indica que la actividad cognitiva puede relacionarse con cambios en las bandas de frecuencia del EEG. En particular, la banda beta, situada entre 12 y 25 Hz, está relacionada con el pensamiento activo y la concentración. 
